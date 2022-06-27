@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body id="body">
+    <div class="navbar">
+        <ul>
+            <li class="nav-links"><a href="" class="nav-item"><button class="nav-link">Ana Sayfa</button></a></li>
+            <li class="nav-links">
+                <p class="nav-item"><button id="drop-btn" class="nav-link">Kategoriler <i class="fa-solid fa-angle-down"
+                            id="as"></i><i class="fa-solid fa-angle-up" id="yuk"></i></button>
+                <ul id="drop">
+                    <li class="nav-links-drop"><a href="" class="nav-item-drop"><button class="nav-link-drop">Kategori
+                                1</button></a></li>
+                    <li class="nav-links-drop"><a href="" class="nav-item-drop"><button class="nav-link-drop">Kategori
+                                2</button></a></li>
+                    <li class="nav-links-drop"><a href="" class="nav-item-drop"><button class="nav-link-drop">Kategori
+                                3</button></a></li>
+                </ul>
+                </p>
+            </li>
+            <li class="nav-links"><a href="#" class="nav-item"><button class="nav-link" id="error">Blog</button></a>
+            </li>
+            <li class="nav-links"><a href="" class="nav-item"><button class="nav-link">İletişim</button></a></li>
+        </ul>
+        <div id="settings">
+            <div id="setting">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <div class="buttons">
+            <button id="error-btn">Error</button>
+            <button id="succes-btn">Succes</button>
+            <button id="warning-btn">Warning</button>
+            <button id="info-btn">İnfo</button>
+        </div>
+    </div>
+    <div class="alerts">
+        <div id="alert-error" class="hidden">
+            <div class="icon">
+                <i class="fa-solid fa-circle-exclamation"></i> Error
+            </div>
+            <div class="close-ico-error">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repudiandae?</p>
+            </div>
+        </div>
+        <div id="alert-succes" class="hidden">
+            <div class="icon">
+                <i class="fa-solid fa-circle-check"></i> Success
+            </div>
+            <div class="close-ico-succes">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repudiandae?</p>
+            </div>
+        </div>
+        <div id="alert-info" class="hidden">
+            <div class="icon">
+                <i class="fa-solid fa-circle-info"></i> İnfo
+            </div>
+            <div class="close-ico-info">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repudiandae?</p>
+            </div>
+        </div>
+        <div id="alert-warning" class="hidden">
+            <div class="icon">
+                <i class="fa-solid fa-triangle-exclamation"></i> Warning
+            </div>
+            <div class="close-ico-warning">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repudiandae?</p>
+            </div>
+        </div>
+    </div>
+    <div class="animasyon">
+        <div class="an-div-btn">
+            <button id="an-btn">Animasyonu başlat</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.0.2/script.min.js"
+        integrity="sha512-UWtTDM6wtl/qutDD6i1JOGZGiEd92dveVzuLl8sMBkMHlOHcbZdexM7ZrKkeaugW7vhqDnWc2pPD/ohEV+BBbg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+
+</html>
